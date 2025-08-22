@@ -4,34 +4,38 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./src/output.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
 
-    <nav>
+    <div class=" flex  justify-between m-5">
         <div class="flex">
             <img src='src/Picture/airbnb.png' alt="" 
-            class="w-8">
-            <p class="text-red-400  text-[30px] font-bold">air bnb</p>
+            class="w-6 text-[#ED204F]">
+            <p class="text-[#ED204F]  text-[30px] font-bold">air bnb</p>
     
         </div>
 
 
-        <div class="flex gap-3">
-             <p>Become a host </p>
-            <img src="src/Picture/globe.png" class="
-            w-5 hover:bg-gray-500  hover:rounded-full
-             cursor-pointer" alt="">
+        <div class="flex gap-3 ">
+             <p class="p-3">Become a host </p>
+            <button class="p-2 rounded-full hover:bg-gray-100 transition">
+                <i class="fa-solid fa-globe "></i>
+            </button>
 
-             <img src="src/Picture/menu.png" class="w-7" alt="">
+            <i class="fa-solid fa-bars p-4"></i>
 
         </div>
 
 
-    </nav>
+    </div>
 
-    <!-- <div class="flex gap-5 bg-red-500 w-max rounded-3xl pl-5 ml-5">
+    <div class="flex gap-20 bg-white  rounded-3xl
+      justify-center items-center border-[2px]
+       border-gray-200  ml-50 mr-50">
     
-        <div>
+        <div class=""> 
             <strong>where</strong>
             <p>Serach destinations</p>
     
@@ -53,12 +57,24 @@
     
         </div>
     
-        <div class=" w-15 bg-[#E41D53] h-15 flex items-center rounded-full justify-center">
-            <img src="Picture/search.png" class="w-7 " alt="">
+        <div class=" w-15 bg-[#E41D53] h-15 flex items-center rounded-full justify-center ml-30">
+            <img src="src/Picture/search.png" class="w-7 " alt="">
         </div>
     
     
-    </div> -->
+    </div>
+
+    <!-- popular in nairobi -->
+    <div class="flex justify-between m-5 mt-20 cursor-pointer">
+        <p class="font-bold text-xl">
+            popular homes in nairobi &nbsp;>
+        </p>
+        <p class="text-[25px] font-bold" >></p>
+    </div>
+
+    <!-- starting component -->
+
+    
 
 
    
